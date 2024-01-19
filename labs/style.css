@@ -1,0 +1,15 @@
+button {
+  display: flex;
+  background: blue;
+  border-radius: 10px;
+  padding: 4px 8px;
+  gap: 4px;
+  border: none;
+  color: white;
+  box-shadow: 1px 1px 3px black;
+}
+
+button:hover {
+  background: darkblue;
+  transition: 400ms;
+}

@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  text-align: center;
+  margin: 10px 0px 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(76, 76, 76);
+}
+
+nav a:hover {
+  color: blue;
+  transition: 400ms;
+}
+
+.article-contents {
+  display: flex;
+  gap: 4px;
+  text-align: justify;
+}
+
+#body-container {
+  width: 600px;
+}
+
+p,
+ul {
+  margin: 0;
+}
+
+#input-containers {
+  display: flex;
+  gap: 12px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  gap: 4px;
+  text-align: justify;
+}
+
+button {
+  border-radius: 50%;
+  padding: 4px 20px;
+  font-size: large;
+  box-shadow: 1px 1px 3px black;
+}
+
+button:hover {
+  background: green;
+  transition: 400ms;
+  cursor: pointer;
+  color: white;
+}
+
+/* Unrelated to assignment */
+#budget_image {
+  width: 240px;
+  height: 240px;
+}
+
+#savings_image {
+  width: 240px;
+  height: 240px;
+}
+
+#debt_image {
+  width: 50%;
+  height: 50%;
+}
